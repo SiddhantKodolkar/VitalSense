@@ -115,9 +115,7 @@ This project is a full-stack web application for monitoring healthcare vitals in
 
 3. View individual patient details in the profile section.
 
-# Healthcare Vitals Monitoring System
-
-This project is a full-stack web application for monitoring healthcare vitals in real-time.
+# Screenshots
 
 ### Dashboard 
 ![Dashboard 1](https://github.com/ananya-77/health-management-system/blob/main/preview/d_1.jpg?raw=true)
