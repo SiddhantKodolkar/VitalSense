@@ -1,4 +1,4 @@
-# Healthcare Vitals Monitoring System
+# VitalSense – Patient Monitoring & Alert Platform
 
 This project is a full-stack web application for monitoring healthcare vitals in real-time. It provides an interactive dashboard for healthcare providers to track patient data and receive alerts when vital signs reach critical levels. The system uses Flask for the backend, Vue.js for the frontend, and MongoDB as the database.
 
