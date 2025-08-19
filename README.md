@@ -16,6 +16,11 @@ This project is a full-stack web application for monitoring healthcare vitals in
 - **Data Processing**: Pandas (Python) for merging and cleaning data
 - **Deployment**: Configurable for AWS or Heroku
 
+## Work in Progress
+- Currently integrating **Socket.IO** to enable **true real-time communication** between the backend and frontend.  
+- This will allow patient vital signs to update dynamically on the dashboard without refreshing, improving response time for healthcare providers.  
+- The real-time feature will also support instant alerts and notifications when a patient’s vitals reach critical thresholds.  
+
 ## Project Structure
 
 1. **`frontend/`** - Contains all frontend files:
