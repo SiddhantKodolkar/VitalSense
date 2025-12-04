@@ -94,17 +94,6 @@ This project is a full-stack web application for monitoring healthcare vitals in
    ```plaintext
    VUE_APP_API_BASE_URL=http://localhost:5000
 
-### Deployment
-
-1. **Heroku (Backend)**:
-   - Ensure the `Procfile` is configured for Heroku deployment.
-   - Push the backend to Heroku by following Heroku's [Python deployment guide](https://devcenter.heroku.com/articles/getting-started-with-python).
-   
-2. **Netlify or Vercel (Frontend)**:
-   - Deploy the Vue.js frontend on Netlify or Vercel by connecting your GitHub repository.
-   - Follow their respective guides:
-     - [Netlify Deployment Guide](https://docs.netlify.com/site-deploys/create-deploys/)
-     - [Vercel Deployment Guide](https://vercel.com/docs)
 
 ### Usage
 
