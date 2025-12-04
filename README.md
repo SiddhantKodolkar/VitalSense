@@ -1,6 +1,6 @@
 # VitalSense – Patient Monitoring & Alert Platform
 
-This project is a full-stack web application for monitoring healthcare vitals in real-time. It provides an interactive dashboard for healthcare providers to track patient data and receive alerts when vital signs reach critical levels. The system uses Flask for the backend, Vue.js for the frontend, and MongoDB as the database.
+This project is a full-stack web application for monitoring healthcare vitals in real-time. It provides an interactive dashboard for healthcare providers to track patient data and receive alerts when vital signs reach critical levels. The system uses Flask for the backend, Vue.js for the frontend, and Snowflake as the Cloud Data Warehouse.
 
 ## Features
 - Real-time patient monitoring and alerts for critical vitals
@@ -12,7 +12,7 @@ This project is a full-stack web application for monitoring healthcare vitals in
 ## Tech Stack
 - **Frontend**: Vue.js, HTML, CSS, JavaScript, Bootstrap/Tailwind for styling
 - **Backend**: Flask (Python) with REST API
-- **Database**: MongoDB
+- **Database**: Snowflake
 - **Data Processing**: Pandas (Python) for merging and cleaning data
 - **Deployment**: Configurable for AWS or Heroku
 
@@ -51,7 +51,6 @@ This project is a full-stack web application for monitoring healthcare vitals in
 ### Prerequisites
 - Node.js and npm for frontend
 - Python 3.8+ for backend
-- MongoDB for the database
 
 ### Backend Setup
 
@@ -78,10 +77,7 @@ This project is a full-stack web application for monitoring healthcare vitals in
      pip install -r requirements.txt
      ```
 
-2. **Create a `.env` file** in the `backend` directory with the following content:
-   ```plaintext
-   DATABASE_URI=mongodb://localhost:27017/your_database
-   SECRET_KEY=your_secret_key
+
 ### Frontend Setup
 
 1. **Install dependencies**:
